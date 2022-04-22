@@ -1,23 +1,29 @@
 div {
-    align-content: center;
-    text-align: center;
-    padding: auto;
-    margin: auto;
+    display: inline-flex;
+    margin: 20px;
     width: 100px;
     height: 100px;
     background: rgba(195, 236, 99, 0.529);
     transition: width 2s;
   }
-div {
+.transition1:hover {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
   transition: width 2s, height 1s;
 }
-  div:hover {
+.transition2:hover {
     width: 300px;
     height: 400px;
   }
-  div {
-    transform: rotate(20deg);
+.transform2D1:hover {
+    transform: rotate(2333deg);
   }
-  div:hover {
+.transform2D2:hover {
     transform: matrix(1, -0.3, 0, 1, 0, 0);
+  }
+  .transform3D1:hover{
+      transform: rotateX(150deg);
+      transition-delay: 3s;
+      background-color: bisque;
   }
