@@ -1,0 +1,74 @@
+body{
+    background: gray;
+}
+.question1{
+    background-color: wheat;
+    border: 4px;
+    border-style: double;
+    padding: 20px;
+    margin: 20px;
+}
+.box {
+    background: rgb(91, 196, 237);
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.parent1 {
+    margin-left: 10px;
+    background: white;
+    border: 1px solid black;
+}
+
+.fifty-percent {
+    width: 50%;
+}
+
+.one-hundred {
+    width: 100px;
+}
+
+.parent1 {
+    width: 250px;
+    ;
+} 
+
+.fifty-vw {
+    width: 50vw;
+}
+
+.twenty-five-vh {
+    height: 25vh;
+}
+
+.parent2 {
+    width: 100px;
+    ;
+}
+
+.parent3 {
+    background: white;
+    border: 1px solid black;
+}
+.one-rem {
+    font-size: 1rem;
+}
+
+.one-em {
+    font-size: 1em;
+}
+
+.two-rem {
+    font-size: 2rem;
+}
+
+.two-em {
+    font-size: 2em;
+}
+
+.parent3 {
+    font-size: 30px;
+}
+
+
+

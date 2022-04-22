@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suyash Sahu HTML/CSS - Assignment - 2</title>
+</head>
+<body>
+    <link rel="stylesheet" href="question1.css">
+    <div class="question1">
+        <h1>1. Demo specifying the difference between rem,em,vh,vw,px.</h1>
+        <h2>Difference between % and px</h2>
+
+        <h3>Example - 1</h3>
+        <p>50% of the screen size or container size is occupied</p>
+        <div class="box fifty-percent">50%</div>
+        <div class="box one-hundred">100px</div>
+        
+        <h3>Example - 2</h3>
+        <p>100px is same in both example as 100 pixels is occupied always but only 50% of the container size is occupied</p>
+        <div class="parent1">
+            <div class="box fifty-percent">50%</div>
+            <div class="box one-hundred">100px</div>
+        </div>
+        <hr>
+
+        <h2>Difference between vw and vh</h2>
+
+        <h3>Example - 1</h3>
+        <p>viewport vw units are based on the entire screen size while vh relative to their parent.</p>
+        <div class="box fifty-percent">50%</div>
+        <div class="box fifty-vw">50vw</div>
+        <div class="box twenty-five-vh">25vh</div>
+        
+        <h3>Example - 2</h3>
+        <p>50 view port will occupy half of the screen size but vh is relative to it's container</p>
+        <div class="parent1">
+            <div class="box fifty-percent">50%</div>
+            <div class="box fifty-vw">50vw</div>
+            <div class="box twenty-five-vh">25vh</div>
+        </div>
+        <hr>
+        
+        <h2>Difference between em and rem</h2>
+
+        <h3>Output-1</h3>
+        <p>Both REM units and EM units are relative but instead of being relative to things around them such as the width of their parents or the height of the parents they’re actually relative to the font size.</p>
+        <div class="one-rem">1rem</div>
+        <div class="one-em">1em</div>
+        <div class="two-rem">2rem</div>
+        <div class="two-em">2em</div>
+        <hr>
+        <h3>Output-2</h3>
+        <div class="parent3">
+            <div class="one-rem">1rem</div>
+            <div class="one-em">1em</div>
+            <div class="two-rem">2rem</div>
+            <div class="two-em">2em</div>
+        </div>
+    </div>
+  
+</body>
+</html>
